@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "dependencyDashboard": true,
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "languages": [
+        "python"
+      ],
+      "updateTypes": [
+        "major",
+        "minor"
+      ],
+      "groupName": "all non-patch dependencies",
+      "groupSlug": "all-major-minor"
+    }
+  ]
+}
